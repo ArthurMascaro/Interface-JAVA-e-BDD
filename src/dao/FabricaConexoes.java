@@ -8,7 +8,7 @@ public class FabricaConexoes {
 
 	public Connection getConnection() {
 		try {
-			return DriverManager.getConnection("jdbc:mysql://localhost/trabalhoDupla?useSSL=false", "root", "Art31102005*");
+			return DriverManager.getConnection("jdbc:mysql://localhost/trabalhoDupla?useSSL=false", "root", "password");
 		} catch(SQLException e) {
 			e.printStackTrace();
 		}
